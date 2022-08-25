@@ -141,7 +141,7 @@ button:hover {
 }
 
 .bottom-section {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 10px;
     display: flex;
@@ -155,4 +155,46 @@ button:hover {
 .right-list-items .snd-child {
     width: 550px;
     height: 200px;
+    /* padding-top: -100px; */
 }
+
+.right-list-items p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* .list-of-services {
+    padding-top: 0px;
+} */
+
+.service-list {
+    margin-top: 30px;
+    font-weight: bold;
+    /* padding-bottom: 10px; */
+    /* line-height: 10px; */
+}
+
+.service-list::marker {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.line-bar-bottom {
+    width: .5px;
+    height: 260px;
+    bottom: 30px;
+    left: 451px;
+    background-color: #111;
+    position: absolute;
+}
+
+.bottom-arrow {
+   width: 50px;
+   height:200px;
+   transform: rotate(180deg);
+   position: absolute;
+   bottom: 40px;
+   right: 1px;
+}
+
+
